@@ -12,13 +12,13 @@
 npm install
 ```
 
-＊ 构建，在build目录下生成文件：index.html bundle.js
+* 构建，在build目录下生成文件：index.html bundle.js
 
 ```
 npm run build
 ```
 
-＊ 调试运行：http://127.0.0.1:8080
+* 调试运行：http://127.0.0.1:8080
 
 ```
 npm run dev
