@@ -32,15 +32,11 @@ module.exports= {
       {
         test: /\.jsx?$/,
         loader: 'babel',
-        include: APP_PATH,
-        query: {
-          //添加两个presents 使用这两种presets处理js或者jsx文件
-          presets: ['es2015', 'react']
-        }
+        include: APP_PATH
       },
       {
-        test: /\.less$/,
-        loaders: ['style', 'css', 'less']
+        test: /\.css$/,
+        loaders: ['style', 'css']
       }
     ]
   },
