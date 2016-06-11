@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --progress --profile --colors --hot",
-    "build": "webpack --progress --profile --colors"
+    // 生产环境，禁用热加载：export NODE_ENV=production
+    "build": "export NODE_ENV=production && webpack --progress --profile --colors"
   },
   "author": "crazyeruca",
   "license": "ISC",
